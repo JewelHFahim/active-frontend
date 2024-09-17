@@ -1,0 +1,41 @@
+.PopularCategories {
+  height: 216px;
+
+  button {
+    width: 188px;
+    height: 40px;
+    font-size: 13px;
+  }
+
+  .products {
+    background-color: #e5e5e9;
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .PopularCategories {
+    height: 100%;
+
+    button {
+      width: 100%px;
+    }
+
+    .products {
+      width: 220px;
+      height: 120px;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .PopularCategories {
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .PopularCategories {
+    height: 100%;
+  }
+}

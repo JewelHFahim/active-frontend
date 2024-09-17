@@ -1,0 +1,244 @@
+$textColor: #3e3f52;
+
+.SalesAndDeals {
+  height: 310px;
+  margin-top: 24px;
+
+  .SD-LeftPortion {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(255, 51, 0, 0.08);
+
+    h2 {
+      font-size: 20px;
+      font-weight: 900;
+      color: $textColor;
+    }
+  }
+
+  .SD-RightPortion {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(255, 51, 0, 0.08);
+    h2 {
+      font-size: 20px;
+      font-weight: 900;
+      color: #3e3f52;
+    }
+
+    .SD-Link {
+      color: #0b80fd;
+      font-size: 12px;
+    }
+
+    .lg-width-60 {
+      width: 60%;
+
+      .deal-box {
+        width: 192px;
+        height: 220px;
+        background-color: #e5e5e9;
+      }
+      .middle-160 {
+        width: 160px;
+        button {
+          width: 118px;
+          height: 44px;
+          font-size: 17px;
+          border-radius: 22px;
+        }
+        h4 {
+          font-size: 17px;
+          color: #3e3f52;
+        }
+        .slogan {
+          color: #3e3f52;
+        }
+        p {
+          font-size: 13px;
+        }
+      }
+    }
+
+    .lg-width-40 {
+      width: 40%;
+
+      .boxes {
+        width: 64px;
+        height: 64px;
+        background-color: #e5e5e9;
+      }
+      p {
+        font-style: 13px;
+        color: #3e3f52;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .SalesAndDeals {
+    height: 100%;
+    margin-top: 14px;
+
+    .SD-LeftPortion {
+      width: 100%;
+
+      h2 {
+        font-size: 16px;
+        color: $textColor;
+      }
+    }
+
+    .SD-RightPortion {
+      width: 100%;
+      h2 {
+        font-size: 16px;
+      }
+
+      .lg-width-60 {
+        width: 100%;
+        .deal-box {
+          width: 100%;
+        }
+
+        .middle-160 {
+          width: 100%;
+          button {
+            width: 100%;
+          }
+        }
+      }
+
+      .lg-width-40 {
+        width: 100%;
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .SalesAndDeals {
+    height: 100%;
+    margin-top: 14px;
+
+    .SD-LeftPortion {
+      width: 100%;
+
+      h2 {
+        font-size: 16px;
+        color: $textColor;
+      }
+    }
+
+    .SD-RightPortion {
+      width: 100%;
+      h2 {
+        font-size: 16px;
+      }
+
+      .lg-width-60 {
+        width: 100%;
+        .deal-box {
+          width: 100%;
+        }
+
+        .middle-160 {
+          width: 100%;
+          button {
+            width: 100%;
+          }
+        }
+      }
+
+      .lg-width-40 {
+        width: 100%;
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 992px) {
+  .SalesAndDeals {
+    height: 100%;
+    margin-top: 14px;
+
+    .SD-LeftPortion {
+      width: 100%;
+
+      h2 {
+        font-size: 16px;
+        color: $textColor;
+      }
+    }
+
+    .SD-RightPortion {
+      width: 100%;
+      h2 {
+        font-size: 16px;
+      }
+
+      .lg-width-60 {
+        width: 100%;
+        .deal-box {
+          width: 100%;
+        }
+
+        .middle-160 {
+          width: 100%;
+          button {
+            width: 100%;
+          }
+        }
+      }
+
+      .lg-width-40 {
+        width: 100%;
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .SalesAndDeals {
+    height: 100%;
+    margin-top: 14px;
+
+    .SD-LeftPortion {
+      width: 100%;
+
+      h2 {
+        font-size: 16px;
+        color: $textColor;
+      }
+    }
+
+    .SD-RightPortion {
+      width: 100%;
+      h2 {
+        font-size: 16px;
+      }
+
+      .lg-width-60 {
+        width: 100%;
+        .deal-box {
+          width: 100%;
+        }
+
+        .middle-160 {
+          width: 100%;
+          button {
+            width: 100%;
+          }
+        }
+      }
+
+      .lg-width-40 {
+        width: 100%;
+      }
+    }
+  }
+}

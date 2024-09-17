@@ -1,0 +1,78 @@
+// Display1 Component
+.display2 {
+  .boxLeft,
+  .boxright {
+    width: 50%;
+    height: 344px;
+  }
+}
+
+// Display3 Component
+.diplay3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 100%;
+
+  .seconddColumn {
+    height: 100%;
+    .box1 {
+      height: 50%;
+      width: 100%;
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  // Display1 Component
+  .display2 {
+    .boxLeft,
+    .boxright {
+      width: 100%;
+      height: 344px;
+    }
+  }
+
+  // Display3 Component
+  .diplay3 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    height: 100%;
+
+    .seconddColumn {
+      .box1 {
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .diplay3 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    height: 100%;
+
+    .seconddColumn {
+      .box1 {
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .diplay3 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    height: 100%;
+
+    .seconddColumn {
+      .box1 {
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+}

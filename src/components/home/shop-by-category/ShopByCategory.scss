@@ -1,0 +1,33 @@
+.ShopByCategory {
+  .container {
+    .products {
+      width: 100%;
+      height: 112px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .ShopByCategory {
+    .col-xl-8 {
+      flex: 0 0 14.28%;
+      max-width: 14.28%;
+    }
+  }
+}
+
+@media (min-width: 1400px) {
+  .ShopByCategory {
+    .col-xl-8 {
+      flex: 0 0 12.5%;
+      max-width: 12.5%;
+    }
+
+    .container {
+      .products {
+        width: 112px;
+        height: 112px;
+      }
+    }
+  }
+}

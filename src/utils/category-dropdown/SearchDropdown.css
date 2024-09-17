@@ -1,0 +1,39 @@
+.search-bar-container {
+  display: flex;
+  /* width: 696px; */
+  height: 40px;
+  background-color: #fff;
+  border-radius: 20px;
+  border: 1px solid #ced4da;
+}
+
+.dropdown-menu {
+  border-radius: 0 0 20px 20px;
+}
+
+.no-outline {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.search-input {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.btn {
+  border: none;
+}
+
+.btn:focus,
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.search-input::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 13px;
+  opacity: 0.4;
+}

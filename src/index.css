@@ -1,0 +1,23 @@
+.sidebar.collapsed {
+  width: 60px;
+  /* justify-content: center; */
+}
+
+.sidebar.expanded {
+  width: 260px;
+  justify-self: start;
+}
+
+.sidebar a {
+  padding: 2px 8px;
+  text-decoration: none;
+}
+
+.expanded .MenuLink {
+  height: 32px;
+}
+
+.collapsed .MenuLink {
+  width: 32px;
+  height: 32px;
+}

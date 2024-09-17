@@ -1,0 +1,65 @@
+.GetOffer {
+  margin-top: 48px;
+  background-color: #fafafc; /* Default background color */
+
+  .posterImag {
+    width: 50%;
+    height: 248px;
+  }
+}
+
+/* Small devices (max-width: 576px) */
+@media only screen and (max-width: 576px) {
+  .GetOffer {
+    margin-top: 30px;
+    height: 100%;
+
+    .posterImag {
+      width: 100%;
+      height: 248px;
+    }
+  }
+}
+
+/* Medium devices (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+  .GetOffer {
+    margin-top: 30px;
+    height: 100%;
+
+    .posterImag {
+      width: 100%;
+      height: 248px;
+    }
+  }
+}
+
+/* Large devices (992px to 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .GetOffer {
+    margin-top: 30px;
+    height: 100%;
+
+    .posterImag {
+      width: 100%;
+      height: 248px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .GetOffer {
+    margin-top: 30px;
+    height: 100%;
+
+    .posterImag {
+      width: 50%; /* Adjust if necessary */
+      height: 248px;
+    }
+
+    .col-xl-1-5 {
+      flex: 0 0 20%;
+      max-width: 20%;
+    }
+  }
+}

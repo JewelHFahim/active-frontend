@@ -1,0 +1,18 @@
+// Import Bootstrap functions (required for custom variables)
+@import "node_modules/bootstrap/scss/functions";
+
+// Font family
+$font-family-lato: "Lato", sans-serif;
+$font-family-openSans: "Open Sans", sans-serif;
+
+
+// custom colors
+$primary: #ffcc01;
+$secondary: #06072C;
+$sideBarIconColor: #06072C;
+$info: #3E3F52;
+$bg-secondary-subtle: #E5E5E9;
+
+
+// Import Bootstrap's main styles
+@import "node_modules/bootstrap/scss/bootstrap";
