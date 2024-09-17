@@ -6,7 +6,8 @@ import MobileNav from "../components/mobile-nav/MobileNav";
 const Main = () => {
   return (
     <div className="relative">
-      <div className="position-fixed left-0 top-0 bg-white z-3 d-none d-lg-block">
+
+      <div className=" position-fixed left-0 top-0 bg-white d-none d-lg-block" style={{ zIndex: "9999"}}>
         <SideDrawer />
       </div>
 
