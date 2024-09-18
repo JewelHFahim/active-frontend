@@ -1,0 +1,28 @@
+.Auctions {
+  .proCont {
+    height: 504px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .Auctions {
+    .proCont {
+      height: 100%;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .Auctions {
+    .proCont {
+      height: 100%;
+    }
+  }
+}
+@media only screen and (max-width: 992px) {
+  .Auctions {
+    .proCont {
+      height: 100%;
+    }
+  }
+}

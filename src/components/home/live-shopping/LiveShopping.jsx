@@ -1,13 +1,11 @@
 import img from "../../../assets/images/mobile.jpg";
-
+import "./LiveShopping.scss";
 
 const LiveShopping = () => {
   return (
-    <div className="mt-5">
-
+    <div className="mt-5 LiveShopping">
       {/* Section Title */}
       <div className="d-flex flex-column flex-lg-row justify-content-between align-items-lg-center">
-
         <div>
           <h2
             className="text-info"
@@ -29,16 +27,21 @@ const LiveShopping = () => {
       </div>
 
       {/* Products Card */}
-      <div
-        className="w-100 row mt-4"
-        style={{ height: "396px" }}
-      >
+      <div className="w-100 row mt-4 proContainer">
         {[...Array(6)].map((item, i) => (
-          <div key={i} className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 g-2">
+          <div
+            key={i}
+            className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 g-2"
+          >
             <div
               key={i}
               className="bg-secondary-subtle rounded-2 p-2 d-flex flex-column justify-content-end"
-              style={{ width: "100%", height: "100%", minHeight: "390px", backgroundImage: `URL(${img})` }}
+              style={{
+                width: "100%",
+                height: "100%",
+                minHeight: "390px",
+                backgroundImage: `URL(${img})`,
+              }}
             >
               <div
                 className="rounded-2 mb-4 p-2 p-xl-3"

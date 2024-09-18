@@ -1,0 +1,28 @@
+.LiveShopping {
+  .productsproContainerCont {
+    height: 396px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .PhoneAndAccessories {
+    .productsCont {
+      height: 100%;
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .LiveShopping {
+    .productsproContainerCont {
+      height: 100%;
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .LiveShopping {
+    .productsproContainerCont {
+      height: 100%;
+    }
+  }
+}

@@ -16,7 +16,7 @@ import ShopByCategory from "./shop-by-category/ShopByCategory";
 
 const HomePage = () => {
   return (
-    <div className="mb-5">
+    <div>
       <BannerTop />
       <SalesAndDeals />
       <PopularCategories />
@@ -27,7 +27,7 @@ const HomePage = () => {
       <EarlyBirds />
       <GetOffer />
       <ShopByCategory />
-      <Display3 /> 
+      <Display3 />
       <PhoneAndAccessories />
       <Auctions />
       <Classifieds />

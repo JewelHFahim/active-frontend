@@ -23,7 +23,7 @@ const Main = () => {
           <MobileNav />
         </div>
 
-        <div style={{ padding: "0px 14%", marginTop: "100px" }}>
+        <div style={{ padding: "0px 14%", margin: "100px 0"}}>
           <HomePage />
         </div>
 

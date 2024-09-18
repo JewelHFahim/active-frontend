@@ -1,8 +1,9 @@
 import img from "../../../assets/images/mobile.jpg";
+import "./Auctions.scss";
 
 const Auctions = () => {
   return (
-    <div className="mt-5 w-100">
+    <div className="mt-5 w-100 Auctions">
       <div>
         <h2
           className="text-info m-0"
@@ -15,10 +16,7 @@ const Auctions = () => {
         </p>
       </div>
 
-      <div
-        className="mt-4 d-flex flex-column flex-lg-row align-items-center gap-3"
-        style={{ height: "504px" }}
-      >
+      <div className="mt-4 d-flex flex-column flex-lg-row align-items-center gap-3 proCont">
         <div
           className="bg-secondary-subtle rounded-2"
           style={{ width: "100%", height: "100%", minHeight: "50%" }}

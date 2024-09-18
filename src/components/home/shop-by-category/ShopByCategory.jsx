@@ -3,17 +3,9 @@ import img from "../../../assets/images/mobile.jpg";
 
 const ShopByCategory = () => {
   return (
-    <div
-      className="w-100 p-5 ShopByCategory"
-      style={{ height: "480px", backgroundColor: "#FAFAFC", marginTop: "48px" }}
-    >
+    <div className="w-100 p-5 ShopByCategory">
       <div className="d-flex justify-content-center">
-        <h2
-          className="text-info"
-          style={{ fontSize: "30px", fontWeight: "900" }}
-        >
-          Shop by Categories
-        </h2>
+        <h2 className="text-info">Shop by Categories</h2>
       </div>
 
       <div className="container mt-4">

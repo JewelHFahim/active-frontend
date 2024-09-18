@@ -1,0 +1,27 @@
+.PhoneAndAccessories {
+  .productsCont {
+    height: 454px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .PhoneAndAccessories {
+    .productsCont {
+      height: 100%;
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .PhoneAndAccessories {
+    .productsCont {
+      height: 100%;
+    }
+  }
+}
+@media only screen and (max-width: 992px) {
+  .PhoneAndAccessories {
+    .productsCont {
+      height: 100%;
+    }
+  }
+}

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import img from "../../../assets/images/mobile.jpg";
+import "./PhoneAndAccessories.scss"
 
 const PhoneAndAccessories = () => {
   const menus = [
@@ -25,9 +26,11 @@ const PhoneAndAccessories = () => {
     },
   ];
   return (
-    <div className="mt-5">
-      <div className="d-flex flex-column text-center text-lg-start flex-lg-row justify-content-between align-items-center">
+    <div className="mt-5 PhoneAndAccessories">
+
+      <div className="d-flex flex-column text-center text-lg-start flex-lg-row justify-content-between align-items-center ">
         <div>
+
           <h2
             className="text-info"
             style={{ fontSize: "30px", fontWeight: "900" }}
@@ -56,10 +59,10 @@ const PhoneAndAccessories = () => {
         </button>
       </div>
 
-      <div>
+      
         <div
-          className="mt-4 w-100 d-flex flex-column flex-lg-row align-items-center gap-4"
-          style={{ height: "454px", gap: "" }}
+          className="mt-4 w-100 d-flex flex-column flex-lg-row align-items-center gap-4 productsCont"
+          
         >
           {/* Top Deals */}
           <div
@@ -211,7 +214,7 @@ const PhoneAndAccessories = () => {
             </div>
           </div>
         </div>
-      </div>
+      
     </div>
   );
 };
